@@ -18,9 +18,9 @@ public class BaseGuatavita {
         if (conn == null || !isConnectionValid()) {
             try {
                 // Conexión a la base de datos
-                String url = "jdbc:postgresql://localhost:5432/GUATAVITA";
-                String user = "postgres";
-                String password = "Dinogomez3@";
+                String url = "jdbc:postgresql://dpg-cslb04m8ii6s73d9f1dg-a.oregon-postgres.render.com:5432/baseguatavita";
+                String user = "baseguatavita_user";
+                String password = "mPPu2DJmPpG36dJhqGkQEN5jwMPZYHkg";
                 conn = DriverManager.getConnection(url, user, password);
                 
                 // Establecer el esquema
