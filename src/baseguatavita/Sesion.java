@@ -42,7 +42,6 @@ Login lg = new Login();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
         txtUsuario = new javax.swing.JTextField();
@@ -80,11 +79,6 @@ Login lg = new Login();
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/4k-vector-mountain-scenery-kppfpltih5lnsaml.jpg"))); // NOI18N
         jLabel4.setText("jLabel4");
         jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 290, 510));
-
-        jLabel9.setFont(new java.awt.Font("Franklin Gothic Heavy", 1, 24)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Alcaldía Municipal");
-        jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 220, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Franklin Gothic Heavy", 1, 24)); // NOI18N
         jLabel11.setText("Contraseña");
@@ -128,7 +122,7 @@ Login lg = new Login();
 
         jLabel3.setFont(new java.awt.Font("Franklin Gothic Heavy", 1, 24)); // NOI18N
         jLabel3.setText("Usuario");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 230, -1, -1));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 220, -1, 40));
 
         txtContraseña1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         txtContraseña1.setBorder(null);
@@ -220,7 +214,6 @@ void ocultar ()
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator4;
