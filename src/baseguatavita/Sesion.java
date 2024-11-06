@@ -19,10 +19,7 @@ Login lg = new Login();
          lg = Login.log(Correo, Contraseña, Privilegio);
          if (lg.getCorreo()!=null && lg.getContraseña()!= null && lg.getPrivilegio()!= null)
          {
-             
-             InterfazPrincipal sis = new InterfazPrincipal();
-            sis.setVisible(true);
-            ocultar();
+             ocultar();
             dispose();
             
                         

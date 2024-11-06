@@ -38,6 +38,7 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         jTextField53 = new javax.swing.JTextField();
         jTextField45 = new javax.swing.JTextField();
         jLabel27 = new javax.swing.JLabel();
+        jProgressBar1 = new javax.swing.JProgressBar();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
@@ -164,6 +165,9 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         txt2 = new javax.swing.JTextField();
         Bq1 = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -346,7 +350,7 @@ public class InterfazPrincipal extends javax.swing.JFrame {
                 BuscarActionPerformed(evt);
             }
         });
-        jPanel4.add(Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
+        jPanel4.add(Buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 20, 130, -1));
 
         tableLista.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -361,7 +365,7 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         ));
         jScrollPane3.setViewportView(tableLista);
 
-        jPanel4.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 740, 320));
+        jPanel4.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 760, 320));
 
         jLabel55.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel55.setText("Documento de Identidad");
@@ -993,6 +997,18 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         jTabbedPane1.addTab(".", jPanel6);
 
         jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(252, 190, 790, 740));
+
+        jLabel5.setFont(new java.awt.Font("Rage Italic", 1, 24)); // NOI18N
+        jLabel5.setText("\"Patrimonio Histórico\"");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 60, -1, -1));
+
+        jLabel26.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel26.setText("ALCALDÍA MUNICIPAL DE GUATAVITA");
+        jPanel1.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, -1, -1));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Recursos/pngegg.png"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 570, 90));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1050, 630));
 
@@ -1716,6 +1732,7 @@ try {
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
@@ -1727,6 +1744,7 @@ try {
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
@@ -1737,6 +1755,7 @@ try {
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
@@ -1755,6 +1774,7 @@ try {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JProgressBar jProgressBar1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
